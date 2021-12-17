@@ -1,3 +1,13 @@
-build:
-  docker:
-    web: Dockerfile
+version: "3"
+
+services:
+  code-server:
+    container_name: code-server
+    image: codercom/code-server
+    ports:
+      - "8080:8080"
+    volumes:
+      - "/usr/local/code-server/project:/home/coder/project"
+    environment:
+      PASSWORD: <password>
+    restart: always
