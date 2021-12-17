@@ -1,4 +1,5 @@
 # deploy-code-server 🚀
+收藏了一系列关于一键部署codeserver的环境和脚本。
 
 A collection of one-click buttons and scripts for deploying [code-server](https://github.com/cdr/code-server) to various cloud hosting platforms. The fastest way to get a code-server environment! ☁️
 
@@ -12,7 +13,7 @@ A collection of one-click buttons and scripts for deploying [code-server](https:
 | [![Heroku](img/logo/heroku.png)](https://heroku.com)                                                            | Heroku            | Container     | Free, 1 CPU, 512 MB RAM       | [see guide](guides/heroku.md)                           |
 | [![Azure App Service](img/logo/azure-app-service.png)](https://azure.microsoft.com/en-us/services/app-service/) | Azure App Service | Container     | Free, 1 CPU, 1 GB RAM         | [see guide](https://github.com/bpmct/code-server-azure) |
 | [![Coder](img/logo/coder.png)](https://coder.com/docs)                                                          | Coder             | Dev Workspace | For developer teams 👨🏼‍💻        | [read the docs](https://coder.com/docs)                 |
-
+| [![Coder](img/logo/coder.png)](https://coder.com/docs)                                                          | Okteto             | 容器部署 | 免费够用 👨🏼‍💻        | [官网](https://cloud.okteto.com/)                 |
 ---
 
 ## code-server on a VM vs. a Container
